@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styles.css">
+    <title>Probabily Calculator</title>
+    <style>
+        .container-box{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            padding: 1rem;
+        }
+        label{
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        .selector-1{
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .selector-2{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">Explore Page</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="">Probability Calculator</a></li>
+            <li><a href="./faq.html">Faq</a></li>
+        </ul>
+</nav>
+<div class="container-box">
+<h1>Probability Calculator</h1>
+<div class="selector-1">
+    <div>
+        <label for="fighter">Select a fighter:</label>
+        <select id="fighter">
+            <option value="Gervonta Davis">Gervonta Davis</option>
+            <option value="Ryan Garcia">Ryan Garcia</option>
+        </select>
+    </div>
+    <div id="result"></div>
+    <button onclick="makeDecision()">Which fighter should you pick?</button>
+</div>
+<script src="../js/Probability.js"></script>
+</body>
+
+</html>
+</body>
+</html>
