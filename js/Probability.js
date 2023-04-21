@@ -15,9 +15,9 @@ function makeDecision() {
     }
 
     if (randomNum < side1Wins) {
-        document.getElementById("result").innerHTML = "Choose " + selectedFighter + "<br>"; // if random number is less than side1Wins, choose side 1
+        document.getElementById("result").innerHTML = "Chose " + selectedFighter + "<br>"; // if random number is less than side1Wins, choose side 1
     } else if (randomNum < side2Wins) {
-        document.getElementById("result").innerHTML = "Choose " + selectedFighter + "<br>" ; // if random number is less than side2Wins, choose side 2
+        document.getElementById("result").innerHTML = "Chose " + selectedFighter + "<br>" ; // if random number is less than side2Wins, choose side 2
     }
 
     if (side1Wins >= criteria * 100) {
